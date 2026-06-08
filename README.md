@@ -2,7 +2,7 @@
 
 This repository contains the codebase for Salone Assist, structured as two independent Next.js applications in a side-by-side structure.
 
-## Applications
+## Applications   
 
 - `main-app`: The main user-facing application for Salone Assist.
 - `admin-app`: The administration interface for managing the platform.
@@ -11,7 +11,7 @@ This repository contains the codebase for Salone Assist, structured as two indep
 
 To work on either project, open a terminal in its respective directory and run the development server.
 
-### Main App
+### Main App  
 ```bash
 cd main-app
 npm install
