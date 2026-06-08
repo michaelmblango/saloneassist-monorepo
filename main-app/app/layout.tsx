@@ -29,11 +29,11 @@ export const metadata: Metadata = {
     userScalable: true,
   },
   icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    icon: "/icon.svg",
+    apple: "/apple-icon.png",
   },
   openGraph: {
-    images: ["/logo.png"],
+    images: ["/placeholder-logo.png"],
   },
 }
 
@@ -45,9 +45,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <meta property="og:image" content="/logo.png" />
+        <link rel="icon" href="/icon.svg" />
+        <link rel="apple-touch-icon" href="/apple-icon.png" />
+        <meta property="og:image" content="/placeholder-logo.png" />
       </head>
       <body className={`${plusJakartaSans.variable} ${inter.variable} font-body antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
